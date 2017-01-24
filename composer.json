@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vivait\\Behat\\": "src/"
+            "Vivait\\Behat\\DbDump\\": "src/"
         }
     },
     "require": {

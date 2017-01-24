@@ -1,6 +1,6 @@
 <?php
 
-namespace Vivait\Behat\Context\DbDump;
+namespace Vivait\Behat\DbDump\Context;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Hook\Scope\AfterScenarioScope;

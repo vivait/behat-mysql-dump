@@ -1,4 +1,4 @@
-# Vivait\Behat\Context\DbDump\DbDumpContext
+# Vivait\Behat\DbDump\Context\DbDumpContext
 
 This context will dump a database to a file when a scenario in [Behat](http://behat.org/en/latest/) fails.
 
@@ -33,7 +33,7 @@ default:
     suites:
         mysuite:
             contexts:
-                - Vivait\Behat\Context\DbDump\DbDumpContext:
+                - Vivait\Behat\DbDump\Context\DbDumpContext:
                     - 'database_username_here'
                     - 'database_password_here'
                     - 'database_name_here'
@@ -47,7 +47,7 @@ default:
     suites:
         mysuite:
             contexts:
-                - Vivait\Behat\Context\DbDump\DbDumpContext:
+                - Vivait\Behat\DbDump\Context\DbDumpContext:
                     - '%%database_user%%'
                     - '%%database_password%%'
                     - '%%database_name%%'
