@@ -1,6 +1,6 @@
 <?php
 
-namespace Vivait\Behat\Context;
+namespace Vivait\Behat\Context\DbDump;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Hook\Scope\AfterScenarioScope;
@@ -68,7 +68,7 @@ class DbDumpContext implements Context
     {
         return sprintf(
             '%s/behat-scenario-failed-%s-%s.sql',
-            $this->rootDirectory,
+            rtrim($this->rootDirectory, DIRECTORY_SEPARATOR),
             $scenarioTitle,
             (new \DateTimeImmutable)->format('YmdHis')
         );
