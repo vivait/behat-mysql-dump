@@ -1,0 +1,21 @@
+{
+    "name": "vivait/behat-mysql-dump",
+    "description": "Uses mysqldump to dump the database out to a file when a scenario in behat fails.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Brunt",
+            "email": "matt.brunt@vivait.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vivait\\Behat\\": "src/"
+        }
+    },
+    "require": {
+        "behat/behat": "^3.0",
+        "symfony/process": "^2.3|^3.0"
+    }
+}
